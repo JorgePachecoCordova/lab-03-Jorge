@@ -1,0 +1,35 @@
+—¿Cómo es que se instalan paquetes con yarn?
+R.- Para instalar paquetes con Yarn, puedes utilizar los siguientes comandos básicos:
+Instalar un paquete específico:
+yarn add <nombre-paquete>
+Esto instala el paquete y lo añade a tu package.json y yarn.lock.
+
+Instalar una versión específica:
+yarn add <nombre-paquete>@<versión>
+
+Instalar un paquete como dependencia de desarrollo:
+yarn add <nombre-paquete> --dev
+
+Instalar todas las dependencias del proyecto (desde package.json):
+yarn install
+
+Instalar un paquete de manera global:
+yarn global add <nombre-paquete>
+
+—¿Cómo es que se borran paquetes con yarn?
+R.- Para borrar paquetes con Yarn, puedes utilizar los siguientes comandos:
+
+Eliminar un paquete específico:
+yarn remove <nombre-paquete>
+Esto eliminará el paquete del proyecto y lo quitará de la sección correspondiente en el package.json y yarn.lock.
+
+Eliminar un paquete globalmente:
+yarn global remove <nombre-paquete>
+Esto asegura que el paquete se elimine correctamente del proyecto o de la instalación global. 
+
+—¿Hay algún equivalente en yarn que haga lo mismo que npm init?
+R.- Sí, en Yarn puedes usar el comando equivalente a npm init para inicializar un nuevo proyecto con un archivo package.json. El comando es:
+
+yarn init
+Esto te guiará por un asistente interactivo, donde puedes ingresar detalles sobre el proyecto, como el nombre, versión, descripción, 
+punto de entrada, entre otros.
